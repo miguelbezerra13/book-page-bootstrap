@@ -48,15 +48,19 @@
 
     <!-- Book Selector -->
     <section class="p-5">
-        <div class="container">
-            <!-- Change it to datalist -->
-            <!-- Do not forget to add the javascript to add all the items to the select -->
-            <select class="form-select input-sm">
-                <option selected>Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-            </select>
+        <div class="container book-selector-container">
+            <form>
+                <div class="row align-items-center justify-content-between">
+                    <div class="col">
+                        <select class="form-select" id="book-select" style="width:auto;">
+                            <option selected>Please select a book</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button class="btn bg-dark text-light" type="button" id="search-button">Search</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </section>
 
@@ -72,10 +76,10 @@
 
                 <!-- Details -->
                 <div class="col-md">
-                    <p class="lead" id="book-title">Title</p>
-                    <p class="lead" id="book-author">Author</p>
-                    <p class="lead" id="book-genre">Genre</p>
-                    <p class="lead" id="book-language">Language</p>
+                    <p class="lead" id="book-title">Title: </p>
+                    <p class="lead" id="book-author">Author: </p>
+                    <p class="lead" id="book-genre">Genre: </p>
+                    <p class="lead" id="book-language">Language: </p>
                 </div>
             </div>
         </div>

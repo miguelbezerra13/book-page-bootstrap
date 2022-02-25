@@ -1,5 +1,7 @@
+$brown: #442408;
+
 .bg-brown {
-    background-color: #9F7431;
+    background-color: $brown; 
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
